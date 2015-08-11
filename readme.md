@@ -12,13 +12,13 @@
 
 ## WAFOMs
 
-* WAFOM values for c = -2, -1, 0, 1, 2 are calculated.
+* WAFOM values W_c(P) for c = -2, -1, 0, 1, 2 are calculated.
 
 ## Errors
 
-* QMC integration error for f(x) := cos(2^cΣx_i) are calculated.
-* The lg-abs-error is plotted:
-    * E[i] := log_2|err(P, f)|.
+* QMC integration error for g_c(x) := cos(2^cΣx_i) are calculated.
+* The lg-abs-error E_c(P) is plotted:
+    * E_c(P) := log_2|err(P, g_c)| against W_c(P).
 
 ## Files
 
